@@ -23,7 +23,7 @@ public enum Operation {
         return op.applyAsDouble(x, y);
     }
 
-    // Main method from Item 34 (Page 163)
+    // Main method from Item 34 (Page 163) .
     public static void main(String[] args) {
         double x = Double.parseDouble(args[0]);
         double y = Double.parseDouble(args[1]);
