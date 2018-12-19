@@ -38,7 +38,7 @@ public final class PhoneNumber {
 //        return result;
 //    }
 
-//    // One-line hashCode method - mediocre performance  (page 53)
+//    // One-line hashCode method - mediocre (not very good) performance  (page 53)
 //    @Override public int hashCode() {
 //        return Objects.hash(lineNum, prefix, areaCode);
 //    }
