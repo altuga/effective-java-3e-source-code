@@ -19,6 +19,11 @@ public class RomanNumerals {
     }
 
     public static void main(String[] args) {
+
+        String s = new String("bikini"); // // DON'T DO THIS!
+
+        String v = "bikini" ; // The improved version i
+
         int numSets = Integer.parseInt(args[0]);
         int numReps = Integer.parseInt(args[1]);
         boolean b = false;
