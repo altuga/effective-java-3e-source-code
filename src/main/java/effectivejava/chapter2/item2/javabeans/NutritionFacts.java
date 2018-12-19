@@ -1,6 +1,7 @@
 package effectivejava.chapter2.item2.javabeans;
 
 // JavaBeans Pattern - allows inconsistency, mandates mutability  (pages 11-12)
+// the JavaBeans pattern precludes the possibility of making a class immutable
 public class NutritionFacts {
     // Parameters initialized to default values (if any)
     private int servingSize  = -1; // Required; no default value
