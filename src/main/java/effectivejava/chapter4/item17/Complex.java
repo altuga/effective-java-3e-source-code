@@ -36,7 +36,9 @@ public final class Complex {
         return new Complex(re, im);
     }
 
- // TODO add minus method
+    public Complex minus(Complex c) {
+        return new Complex(re - c.re, im - c.im);
+    }
 
     public Complex times(Complex c) {
         return new Complex(re * c.re - im * c.im,
