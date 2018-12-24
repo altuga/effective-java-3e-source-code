@@ -26,9 +26,6 @@ public class Card {
             for (Iterator<Rank> j = ranks.iterator(); j.hasNext(); )
                 deck.add(new Card(i.next(), j.next()));
 
-//        // Preferred idiom for nested iteration on collections and arrays
-//        for (Suit suit : suits)
-//            for (Rank rank : ranks)
-//                deck.add(new Card(suit, rank));
+
     }
 }
